@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+    body{
+        font-family: 'Manrope', sans-serif;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <nav class="container px-4 lg:px-24 mx-auto my-6">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a class="text-[#FF4240] font-bold">Home</a></li>
+                      <li><a>About</a> </li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="lg:text-4xl text-2xl font-extrabold">Hockey<span class="text-orange-600">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-[#424247]">
+                    <li><a class="text-[#FF4240] font-bold">Home</a></li>
+                      <li><a>About</a> </li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end gap-6">
+                    <div class="text-2xl hidden lg:flex"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <button class="bg-[#FF4240] px-5 py-3 rounded-lg">
+                    <a class="text-white font-bold text-xl">Get Ticket</a>
+                  </button>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container mx-auto px-4 lg:px-24 ">
+            <div class="carousel w-full h-[70vh]">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="./images/1.png" class="w-full" />
+                  <div class="absolute bottom-3 left-[35%] lg:bottom-8 lg:left-8 space-x-3">
+                    <a href="#slide2" class="btn bg-black text-white btn-circle">❮</a> 
+                    <a href="#slide2" class="btn  bg-black text-white btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="./images/2.png" class="w-full" />
+                  <div class="absolute bottom-3 left-[35%] lg:bottom-8 lg:left-8 space-x-3">
+                    <a href="#slide1" class="btn  bg-black text-white btn-circle">❮</a> 
+                    <a href="#slide1" class="btn  bg-black text-white btn-circle">❯</a>
+                  </div>
+                </div> 
+                
+              </div>
+              <div class="absolute hidden lg:flex w-[500px] bottom-20 right-40  p-8 rounded-2xl bg-black">
+                <div class="">
+                    <h3 class="text-white font-extrabold text-2xl">Meet all the heroes from the field</h3>
+                    <p class="text-[#ffffff99] font-medium">USA Hockey is regularly engaged in research and works with equipment companies.</p>
+                </div>
+                   
+              </div>
+              
+              <div class=" lg:hidden mt-4 p-4 rounded-2xl bg-black">
+                <h3 class="text-white font-extrabold text-2xl">Meet all the heroes from the field</h3>
+                <p class="text-[#ffffff99] font-medium">USA Hockey is regularly engaged in research and works with equipment companies.</p>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 lg:px-24 mt-14 ">
+            <div class="text-center py-8 text-[#131318] border-y-2 border-dashed lg:px-16 font-extrabold">
+                <h3 class="text-4xl font-extrabold pb-6">Professional Hockeys Club</h3>
+                <p class="text-[#13131899] font-medium">USA Hockey will continue to evaluate whether to require cut-resistant protective equipment for the neck, arms and legs.and utilize the guidance of its Safety and Protective Equipment Committee and other subject matter experts in its on-going assessment. </p>
+            </div>
+            <div class="grid grid-rows-1 lg:grid-cols-4 lg:mt-10">
+                <div class="card  bg-base-100">
+                    <figure class="relative px-10 pt-10 ">
+                      <div class="h-32 w32">
+                        <img src="./images/Group 9.svg"/>
+                      </div>
+                      <h3 class="absolute top-1/2 left-2/6 text-2xl font-extrabold">87%</h3>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="text-xl font-semibold card-title">Prayers</h2>
+                      <p class="text-[#13131899]">We have top most prayer facilities</p>
+                    </div>
+                  </div>
+                <div class="card  bg-base-100">
+                    <figure class="relative px-10 pt-10 ">
+                      <div class="h-32 w32">
+                        <img src="./images/Group 9 (1).svg"/>
+                      </div>
+                      <h3 class="absolute top-1/2 left-2/6 text-2xl font-extrabold">95%</h3>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="text-xl font-semibold card-title">Experienced Coach</h2>
+                      <p class="text-[#13131899]">We have the most exprienced coach</p>
+                    </div>
+                  </div>
+                <div class="card bg-base-100">
+                    <figure class="relative px-10 pt-10 ">
+                      <div class="h-32 w32">
+                        <img src="./images/Group 9 (2).svg"/>
+                      </div>
+                      <h3 class="absolute top-1/2 left-2/6 text-2xl font-extrabold">90%</h3>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="text-xl font-semibold card-title">Senior Player</h2>
+                      <p class="text-[#13131899]">There are so many senior plalyer in our club</p>
+                    </div>
+                  </div>
+                <div class="card  bg-base-100">
+                    <figure class="relative px-10 pt-10 ">
+                      <div class="h-32 w32">
+                        <img src="./images/Group 9 (3).svg"/>
+                      </div>
+                      <h3 class="absolute top-1/2 left-2/6 text-2xl font-extrabold">80%</h3>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="text-xl font-semibold card-title">Training Ground</h2>
+                      <p class="text-[#13131899]">We have large playgroung and much more facilities</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 lg:px-24 mt-14 ">
+            <div class="text-center py-8 text-[#131318] border-y-2 border-dashed lg:px-16 font-extrabold">
+                <h3 class="text-4xl font-extrabold pb-6">Program Sections</h3>
+                <p class="text-[#13131899] font-medium">USA Hockey will continue to evaluate whether to require cut-resistant protective equipment for the neck, arms and legs.and utilize the guidance. </p>
+            </div>
+            <div class=" grid lg:grid-cols-2 gap-4 pb-4 pt-20">
+              <div class="card bg-base-100 shadow-xl image-full">
+                <figure><img src="./images/2.png" alt="" /></figure>
+                <div class="card-body pt-20">
+                  <h2 class="card-title text-3xl font-extrabold">Junior Program</h2>
+                  <p> Hockey has a long and proud tradition in Eastern Bohemia, and the Pardubice club, formed in 1923, is now beginning its second century of play.</p>
+                  <div class="card-actions">
+                    <button class="px-6 py-3 bg-red-600 text-white rounded-lg">Register Now!</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-base-100 shadow-xl image-full">
+                <figure><img src="./images/3.png" alt="" /></figure>
+                <div class="card-body pt-20">
+                  <h2 class="card-title text-3xl font-extrabold">Teenager Program</h2>
+                  <p> Hockey has a long and proud tradition in Eastern Bohemia, and the Pardubice club, formed in 1923, is now beginning its second century of play.</p>
+                  <div class="card-actions">
+                    <button class="px-6 py-3 bg-red-600 text-white rounded-lg">Register Now!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-base-100  shadow-xl image-full">
+              <figure><img src="./images/4.png" alt="" /></figure>
+              <div class="card-body pt-20 lg:pt-52">
+                <h2 class="card-title text-3xl font-extrabold">Junior Program</h2>
+                <p class=" lg:w-3/4"> Hockey has a long and proud tradition in Eastern Bohemia, and the Pardubice club, formed in 1923, is now beginning its second century of play. In that time, the club has not only had considerable success on the ice – winning six national titles in the last 50 years. </p>
+                <div class="card-actions">
+                  <button class="px-6 py-3 bg-red-600 text-white rounded-lg">Register Now!</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 lg:px-24 mt-14 " >
+          <div class="text-center py-8 text-[#131318] border-y-2 border-dashed lg:px-16 font-extrabold">
+            <h3 class="text-4xl font-extrabold pb-6">Our New Products</h3>
+            <p class="text-[#13131899] font-medium">USA Hockey will continue to evaluate whether to require cut-resistant protective equipment for the neck, arms and legs.and utilize the guidance. </p>
+        </div>
+        <div class="grid lg:grid-cols-2 lg:grid-rows-3 pt-16 gap-6">
+          <div class="hero border-solid border-2 border-[#1313181a] rounded-2xl ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="./images/5.png" class=" rounded-lg " />
+              <div>
+                <div class="flex items-center gap-4">
+                  <i class="fa-solid fa-star"></i>
+                  <p>5.00</p>
+                  <i class="fa-regular fa-eye"></i>
+                  <p>20</p>
+                  <i class="fa-regular fa-heart"></i>
+                  <p>200</p>
+                </div>
+                <h1 class="text-2xl font-extrabold">World Cup Flags Football</h1>
+                <p class="">USA Hockey will continue to evaluate whether to require cut-resistant protective equipment for the neck.</p>
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                  <div class="flex items-center justify-center gap-1">
+                    <i class="fa-solid text-[#13131880] fa-cart-shopping"></i>
+                  <p class="text-[#13131880] font-medium">Delivery Fee : Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero border-solid border-2 border-[#1313181a] rounded-2xl">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="./images/6.png" class=" rounded-lg " />
+              <div>
+                <div class="flex items-center gap-4">
+                  <i class="fa-solid fa-star"></i>
+                  <p>5.00</p>
+                  <i class="fa-regular fa-eye"></i>
+                  <p>20</p>
+                  <i class="fa-regular fa-heart"></i>
+                  <p>200</p>
+                </div>
+                <h1 class="text-2xl font-extrabold" >World Cup Flags Football </h1>
+                <p class="">USA Hockey will continue to evaluate whether to require cut-resistant protective equipment for the neck.</p>
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                  <div class="flex items-center justify-center gap-1">
+                    <i class="fa-solid text-[#13131880] fa-cart-shopping"></i>
+                  <p class="text-[#13131880] font-medium">Delivery Fee : Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero border-solid border-2 border-[#1313181a] rounded-2xl">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="./images/7.png" class=" rounded-lg " />
+              <div>
+                <div class="flex items-center gap-4">
+                  <i class="fa-solid fa-star"></i>
+                  <p>5.00</p>
+                  <i class="fa-regular fa-eye"></i>
+                  <p>20</p>
+                  <i class="fa-regular fa-heart"></i>
+                  <p>200</p>
+                </div>
+                <h1 class="text-2xl font-extrabold">Cap For Hockey's</h1>
+                <p class="">USA Hockey will continue to evaluate whether to require cut-resistant protective equipment for the neck.</p>
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                  <div class="flex items-center justify-center gap-1">
+                    <i class="fa-solid text-[#13131880] fa-cart-shopping"></i>
+                  <p class="text-[#13131880] font-medium">Delivery Fee : Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero border-solid border-2 border-[#1313181a] rounded-2xl">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="./images/8.png" class=" rounded-lg " />
+              <div>
+                <div class="flex items-center gap-4">
+                  <i class="fa-solid fa-star"></i>
+                  <p>5.00</p>
+                  <i class="fa-regular fa-eye"></i>
+                  <p>20</p>
+                  <i class="fa-regular fa-heart"></i>
+                  <p>200</p>
+                </div>
+                <h1 class="text-2xl font-extrabold">World Cup Flags Football</h1>
+                <p class="">USA Hockey will continue to evaluate whether to require cut-resistant protective equipment for the neck.</p>
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                  <div class="flex items-center justify-center gap-1">
+                    <i class="fa-solid text-[#13131880] fa-cart-shopping"></i>
+                  <p class="text-[#13131880] font-medium">Delivery Fee : Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero border-solid border-2 border-[#1313181a] rounded-2xl">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="./images/9.png" class=" rounded-lg " />
+              <div>
+                <div class="flex items-center gap-4">
+                  <i class="fa-solid fa-star"></i>
+                  <p>5.00</p>
+                  <i class="fa-regular fa-eye"></i>
+                  <p>20</p>
+                  <i class="fa-regular fa-heart"></i>
+                  <p>200</p>
+                </div>
+                <h1 class="text-2xl font-extrabold">World Cup Flags Football</h1>
+                <p class="">USA Hockey will continue to evaluate whether to require cut-resistant protective equipment for the neck.</p>
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                  <div class="flex items-center justify-center gap-1">
+                    <i class="fa-solid text-[#13131880] fa-cart-shopping"></i>
+                  <p class="text-[#13131880] font-medium">Delivery Fee : Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero border-solid border-2 border-[#1313181a] rounded-2xl">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="./images/10.png" class=" rounded-lg " />
+              <div>
+                <div class="flex items-center gap-4">
+                  <i class="fa-solid fa-star"></i>
+                  <p>5.00</p>
+                  <i class="fa-regular fa-eye"></i>
+                  <p>20</p>
+                  <i class="fa-regular fa-heart"></i>
+                  <p>200</p>
+                </div>
+                <h1 class="text-2xl font-extrabold">World Cup Flags Football</h1>
+                <p class="">USA Hockey will continue to evaluate whether to require cut-resistant protective equipment for the neck.</p>
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                  <div class="flex items-center justify-center gap-1">
+                    <i class="fa-solid text-[#13131880] fa-cart-shopping"></i>
+                  <p class="text-[#13131880] font-medium">Delivery Fee : Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
